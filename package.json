@@ -1,14 +1,17 @@
 {
-  "name": "exceptional",
+  "name": "exceptional-name",
   "version": "1.0.0",
-  "description": "",
+  "description": "Club template",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w sass/ -o css/ --recursive"
+    "sass": "node-sass -w sass/ -o css/ --recursive",
+    "deploy": "gh-pages -d EX"
   },
+  "Homepage": "https://evans95mm.github.io/Club",
   "author": "EVANS",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.1"
   }
 }
