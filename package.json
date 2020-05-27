@@ -1,17 +1,19 @@
 {
-  "name": "exceptional-name",
+  "name": "ex",
   "version": "1.0.0",
-  "description": "Club template",
+  "description": "CLUB",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w sass/ -o css/ --recursive",
-    "deploy": "gh-pages -d EX"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "Homepage": "https://evans95mm.github.io/Club",
-  "author": "EVANS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evans95mm/Club.git"
+  },
+  "author": "",
   "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^2.2.0",
-    "node-sass": "^4.14.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Evans95mm/Club/issues"
+  },
+  "homepage": "https://github.com/Evans95mm/Club#readme"
 }
